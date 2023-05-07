@@ -6,7 +6,7 @@
   Time: 14:37
   To change this template use File | Settings | File Templates.
 --%>
-Templates<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
+<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,6 +20,7 @@ Templates<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--
 <form:form action="showDetails" modelAttribute="employee">
 
     Name <form:input path="name"/>
+    <form:errors path="name"/>
     <br><br>
     Surname <form:input path="surname"/>
     <br><br>

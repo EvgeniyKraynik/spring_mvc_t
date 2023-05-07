@@ -12,7 +12,7 @@
 <head>
 </head>
 <body>
-<h2>Dear Employee, you are WELCOM!!!</h2>
+<h2>Dear Employee, you are WELCOME!!!</h2>
 <br>
 <br>
 <br>

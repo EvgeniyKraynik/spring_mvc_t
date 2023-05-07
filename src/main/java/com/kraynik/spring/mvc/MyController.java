@@ -26,13 +26,6 @@ public class MyController {
     @RequestMapping("/showDetails")
     public String showEmpDetails(@ModelAttribute("employee") Employee emp) {
 
-        String name = emp.getName();
-        emp.setName("Mr. " + name);
-        String surname = emp.getSurname();
-        emp.setSurname(surname + "!");
-        int salary = emp.getSalary();
-        emp.setSalary(salary * 10);
-
         return "show-emp-detail-view";
     }
 }

@@ -32,6 +32,11 @@ Templates<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--
     Which car do you want?
     <form:radiobuttons path="carBrand" items="${employee.carBrands}"/>
     <br><br>
+    Foreign Language (s)
+    EN <form:checkbox path="languages" value="Engish"/>
+    DE <form:checkbox path="languages" value="Deutch"/>
+    FR <form:checkbox path="languages" value="France"/>
+    <br><br>
     <input type="submit" value="ok">
 
 

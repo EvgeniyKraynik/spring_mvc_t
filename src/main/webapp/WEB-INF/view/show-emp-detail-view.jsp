@@ -30,13 +30,14 @@ Your car: ${employee.carBrand}
 <br>
 Language(s):
 <ul>
-
     <c:forEach var="lang" items="${employee.languages}">
         <li>
                 ${lang}
         </li>
     </c:forEach>
-
 </ul>
+Phone number: ${employee.phoneNumber}
+<br>
+Email: ${employee.email}
 </body>
 </html>
